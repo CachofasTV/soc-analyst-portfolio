@@ -1,3 +1,8 @@
-# Wazzuh Bruteforce
+# Detección de Fuerza Bruta — Wazuh
 
-Ejercicios realizados de BruteForce Wazzuh.
+## 🎯 Objetivo
+Detectar múltiples intentos fallidos de inicio de sesión vía SSH.
+
+## 🧪 Prueba ejecutada
+Se realizaron intentos fallidos deliberados:
+
