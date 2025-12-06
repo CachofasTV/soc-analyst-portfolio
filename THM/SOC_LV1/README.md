@@ -1,3 +1,13 @@
-# SOC LV1
+# TryHackMe — SOC Level 1 Path
 
-Prácticas relacionadas con SOC LV1
+Este directorio contiene:
+
+- Notas del path completo  
+- Resúmenes de investigación  
+- Evidencia de rooms (sin flags)  
+- Checklist de progreso  
+
+Rooms clave:
+- SIEM Basics  
+- Log Analysis  
+- Practical Investigations 1, 2, 3  
