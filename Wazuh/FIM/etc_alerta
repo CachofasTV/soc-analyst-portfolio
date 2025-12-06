@@ -1,0 +1,11 @@
+
+## 🔔 Prueba realizada
+1. Edité un archivo en `/etc/`.  
+2. Wazuh generó una alerta automáticamente.  
+
+## 🔍 Resultados
+- Alerta recibida en dashboard ✔  
+- Evento clasificado correctamente ✔  
+
+## 📸 Evidencia
+Agregar screenshot del evento FIM.
