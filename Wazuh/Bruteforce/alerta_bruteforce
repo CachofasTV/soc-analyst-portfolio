@@ -1,0 +1,11 @@
+
+## 🔔 Resultados
+Wazuh generó una alerta de brute force, mostrando:
+
+- IP origen  
+- Usuario usado  
+- Número de intentos  
+- Severidad  
+
+## 📸 Evidencia
+Subir screenshot de la alerta.
