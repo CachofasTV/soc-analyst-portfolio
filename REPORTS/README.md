@@ -1,0 +1,1 @@
+# Reportes generados de prácticas
