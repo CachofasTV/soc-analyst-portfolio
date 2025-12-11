@@ -24,3 +24,5 @@ SigninLogs
     Mensaje = ResultDescription
 | project TimeGenerated, Usuario, IP, País, App, Resultado, Mensaje
 | sort by TimeGenerated desc
+
+![Vista completa](Azure/KQL/screenshots/signinlosextend.png)
