@@ -6,7 +6,7 @@ SigninLogs
       by tostring(LocationDetails.countryOrRegion)
 | order by Intentos desc
 
-![Query por país](Azure/KQL/screenshots/signinlogsintentos.png)
+![Query por país](../screenshots/signinlogsintentos.png)
 
 ## Resumen por IP
 SigninLogs
@@ -14,7 +14,7 @@ SigninLogs
       by IPAddress
 | order by Intentos desc
 
-![Query por IP](Azure/KQL/screenshots/signinlogsporip.png)
+![Query por IP](../screenshots/signinlogsporip.png)
 
 ## Intentos fallidos
 SigninLogs
@@ -23,7 +23,7 @@ SigninLogs
       by UserPrincipalName, IPAddress
 | order by Fallos desc
 
-![Query Intentos Fallidos](Azure/KQL/screenshots/signinlogsintentos.png)
+![Query Intentos Fallidos](../screenshots/signinlogsintentos.png)
 
 
 ## Impossible Travel
@@ -35,5 +35,5 @@ SigninLogs
     Hora = TimeGenerated
 | order by Hora asc
 
-![Query Intentos Fallidos](Azure/KQL/screenshots/signinlogsimpossibletravel.png)
+![Query Intentos Fallidos](../screenshots/signinlogsimpossibletravel.png)
 
