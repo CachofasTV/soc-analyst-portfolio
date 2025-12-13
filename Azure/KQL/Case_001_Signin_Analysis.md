@@ -25,4 +25,4 @@ SigninLogs
 | project TimeGenerated, Usuario, IP, País, App, Resultado, Mensaje
 | sort by TimeGenerated desc
 
-![Vista completa](Azure/KQL/screenshots/signinlosextend.png)
+![Vista completa](screenshots/signinlosextend.png)
