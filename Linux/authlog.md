@@ -1,4 +1,4 @@
-# Prueba del comando auth.log
+# # Linux Authentication Log Analysis
 
 ## Umbral de detección Para distinguir los fallos de autenticación aislados de la actividad sospechosa, se definió un umbral:
 - **Señal:** Intentos de autenticación fallidos 
@@ -20,3 +20,16 @@
 
 ##sudo grep "X.X.X.X" /var/log/auth.log
 - Filtra eventos de una IP única.
+
+## Conclusiones 
+- ¿Qué encontré? Se realizaron pruebas con una contraseña incorrecta para ver cómo se ven los registros dentro del auth.log.
+- ¿Por qué es importante? Es importante identificar los intentos fallidos de ingreso al sistema, en caso de que sea algún intento de ataque (Brute Force).
+- ¿Qué haría si fuera un caso real? El primer paso sería confirmar el evento, después bloquearía la dirección IP que intenta ingresar, alertaría al equipo SOC y, por último, haría una investigación del incidente para tomar acciones correctivas.
+
+## Resumen y próximos pasos
+Este análisis demostró cómo inspeccionar los registros de autenticación local en Linux, diferenciar eventos locales de remotos, identificar patrones de acceso fallido y proponer una regla de detección y un manual de respuesta.
+
+**Siguientes pasos:**
+- Implementar estas reglas de detección en una plataforma SIEM
+- Ampliar el análisis para incluir registros sudo y su
+- Automatizar alertas con umbrales
