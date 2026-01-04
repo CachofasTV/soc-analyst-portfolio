@@ -1,5 +1,7 @@
 # Prueba del comando auth.log
 
+## Umbral de detección Para distinguir los fallos de autenticación aislados de la actividad sospechosa, se definió un umbral: - **Señal:** Intentos de autenticación fallidos - **Fuente:** /var/log/auth.log - **Umbral:** ≥ 5 intentos fallidos en 2 minutos Este umbral ayuda a reducir los falsos positivos causados por errores del usuario y al mismo tiempo permite la detección temprana de posibles intentos de fuerza bruta o mal uso.
+
 ## sudo ls -lh /var/log/aut.log
 - Muestra que el archivo exista y que esté activo.
 
