@@ -5,8 +5,7 @@ Aquí documento mi experiencia real aplicando conocimientos de:
 
 - Blue Team
 - SOC Operations
-- Wazuh (SIEM / HIDS)
-- Azure Security / Defender
+- Linux
 - KQL detections
 - Incident Response
 - TryHackMe SOC Level 1 labs
@@ -20,8 +19,7 @@ Este portafolio está diseñado para mostrar mis habilidades técnicas orientada
 
 | Carpeta | Descripción |
 |--------|-------------|
-| **Wazuh** | Instalación, agentes, FIM, brute force y detecciones con documentación técnica. |
-| **Azure** | Alertas, Defender for Cloud, detecciones y consultas KQL. |
+| **Linux** | Prácticas dentro de Linux, comandos y resultados |
 | **THM** | Ejercicios completados y notas del path SOC Level 1. |
 | **DLP** | Mini proyecto de política de prevención de fuga de datos. |
 | **Reports** | Reportes finales, hallazgos y documentación para entrevistas. |
