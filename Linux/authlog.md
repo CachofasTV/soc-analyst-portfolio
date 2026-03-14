@@ -18,10 +18,10 @@
 ## sudo grep -i "invalid user" /var/log/auth.log
 - Busca intentos de login por usuarios inexistentes. En este caso solo se encuentra la búsqueda realizada por mí al contener el "sshd", para evitarlo se realiza el uso de otro comando, "sudo grep -i "sshd" /var/log/auth.log | grep -v "sudo:"
 
-##sudo grep "X.X.X.X" /var/log/auth.log
+## sudo grep "X.X.X.X" /var/log/auth.log
 - Filtra eventos de una IP única.
 
-##sudo grep "2026-03-14" /var/log/auth.log | grep -c "authentication failure"
+## sudo grep "2026-03-14" /var/log/auth.log | grep -c "authentication failure"
 - Comando usado para filtrar búsqueda a solo la fecha del 14 de marzo del 2026, y se cuentan los "authentication failure" encontrados dentro de los logs.
 
 ## Conclusiones 
