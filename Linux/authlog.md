@@ -21,6 +21,9 @@
 ##sudo grep "X.X.X.X" /var/log/auth.log
 - Filtra eventos de una IP única.
 
+##sudo grep "2026-03-14" /var/log/auth.log | grep -c "authentication failure"
+- Comando usado para filtrar búsqueda a solo la fecha del 14 de marzo del 2026, y se cuentan los "authentication failure" encontrados dentro de los logs.
+
 ## Conclusiones 
 - ¿Qué encontré? Se realizaron pruebas con una contraseña incorrecta para ver cómo se ven los registros dentro del auth.log.
 - ¿Por qué es importante? Es importante identificar los intentos fallidos de ingreso al sistema, en caso de que sea algún intento de ataque (Brute Force).
